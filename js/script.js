@@ -4,7 +4,12 @@ $( document ).ready(function() {
 		$('#mountains').hide("slow");
 	});
 	
-	$('.salamander').on('click', function(){
+	$('.salamander').on('click', function() {
 		$('#mountains').show("slow");
+	});
+	
+	$('#submit').on('click', function() {
+		var search_value = $('#search').val();
+			alert(search_value);
 	});
 });
