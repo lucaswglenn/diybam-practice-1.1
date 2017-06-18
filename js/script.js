@@ -1,5 +1,6 @@
-$(document).ready(function() {
-	$('#niceday')on.('click',function() {
-		alert('Very nice.');
+$( document ).ready(function() {
+	"use strict";
+	$( '#mountains' ).on('click',function() {
+		$('#mountains').hide("slow");
 	});
 });
