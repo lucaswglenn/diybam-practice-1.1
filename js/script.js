@@ -3,4 +3,8 @@ $( document ).ready(function() {
 	$( '#mountains' ).on('click',function() {
 		$('#mountains').hide("slow");
 	});
+	
+	$('.salamander').on('click', function(){
+		$('#mountains').show("slow");
+	});
 });
